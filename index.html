@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
 <title>Renmen.js test</title>
-<script src="./renmen.js"></script>
+<script type="text/javascript">
+function loadRenmenJS(){
+    var tag = document.createElement("script");
+    tag.type = "text/javascript";
+    tag.src = "./renmen.js";
+    document.body.appendChild(tag);
+}
+</script>
 </head>
 <body>
 <h1>Renmen.js test</h1>
+<button onClick="loadRenmenJS();">Load Renmen.js</button>
 </body>
 </html>
