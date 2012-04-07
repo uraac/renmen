@@ -1,0 +1,6 @@
+A script for bookmarklet use that splits a long text (over 140 characters)
+to appropriate size text to tweet.
+
+functionality
+-Splits text to be within 140 characters
+-Counts characters with @username room
